@@ -31,17 +31,40 @@
   </nav>
 
   <!-- container (not taking up entire screen) with "Contact" title then <br>  -->
-
-  <p>Contact</p>
-  <!-- ***same container above moving down in rows*** -->
-  <!-- title "name" -->
-  <!-- field to enter name -->
-  <!-- title "email" -->
-  <!-- field to enter name -->
-  <!-- title "Message" -->
-  <!-- field to enter a message -->
-  <!-- submit button -->
-
+  <div class="container">
+    <div class="row py-3">
+      <div class="col-md-7">
+        <h1 class="pb-3">Contact</h1>
+      </div>
+    </div>
+    <!-- form -->
+    <form class="container">
+      <div class="form-row">
+        <div class="form-group col-md-7">
+          <!-- title "name" -->
+          <label for="name">Name</label>
+          <!-- field to enter name -->
+          <input type="text" class="form-control" placeholder="Name">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-7">
+          <!-- title "email" -->
+          <label for="inputEmail">Email</label>
+          <!-- field to enter email -->
+          <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+        </div>
+      </div>
+      <div class="form-group col-md-7">
+        <!-- title "Message" -->
+        <label for="Typing a message">Message</label>
+        <!-- field to enter a message -->
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <!-- submit button -->
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
   <!-- footer (sticky footer possibly matching index.html and portfolio.html footer) -->
   <div class="fixed-bottom">
     <footer class="footer bg-primary">
@@ -53,8 +76,8 @@
               <img class="rounded-circle" src="https://via.placeholder.com/25" alt="###">
             </a>
             <!-- center img link to github -->
-            <a href="###">
-              <img class="rounded-circle mx-3" src="https://via.placeholder.com/25" alt="###">
+            <a href="https://github.com/toveson" target="_blank">
+              <img class="rounded-circle mx-3" src="./GitHub-Mark-32px.png" alt="###">
             </a>
             <!-- right img link to social media? -->
             <a href="###">
