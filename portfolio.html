@@ -17,17 +17,17 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <a class="navbar-brand nav-item nav-link ml-auto" href="index.html">Trever Oveson</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link ml-auto" href="index.html">About</a>
-            <a class="nav-item nav-link ml-auto active" href="portfolio.html">| Portfolio |</a>
-            <a class="nav-item nav-link ml-auto" href="contact.html">Contact</a>
-          </div>
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link ml-auto" href="index.html">About</a>
+                <a class="nav-item nav-link ml-auto active" href="portfolio.html">| Portfolio |</a>
+                <a class="nav-item nav-link ml-auto" href="contact.html">Contact</a>
+            </div>
         </div>
-      </nav>
+    </nav>
     <!-- container (not taking up entire screen) with "Portfolio" title then at least 5 cards with 350x350 placeholders -->
     <div class="container">
         <!-- portfolio banner -->
@@ -45,7 +45,10 @@
                 <div class="card-body">
                     <h5 class="card-title">Pets Furever</h5>
                     <p class="card-text">A simple site to heelp you find a dog to adopt.</p>
-                    <a href="https://toveson.github.io/pets-furever/" class="btn btn-primary">Pets Furever Website</a>
+                    <div class="card-body">
+                        <a class="row" href="https://toveson.github.io/pets-furever/" class="card-link">Pets Furever Website</a>
+                        <a class="row" href="https://github.com/toveson/pets-furever" class="card-link">Pets Furever GitHub</a>
+                    </div>
                 </div>
             </div>
             <!-- password generator card -->
@@ -56,8 +59,10 @@
                     <h5 class="card-title">Password Generator</h5>
                     <p class="card-text">A random password generator that the user can copy the created password from.
                     </p>
-                    <a href="https://toveson.github.io/password-generator/" class="btn btn-primary">Password Generator
-                        Website</a>
+                    <div class="card-body">
+                        <a class="row" href="https://toveson.github.io/password-generator/" class="card-link">Password Generator Website</a>
+                        <a class="row" href="https://github.com/toveson/password-generator" class="card-link">Password Generator GitHub</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -71,8 +76,10 @@
                     <h5 class="card-title">Weather Dashboard</h5>
                     <p class="card-text">Easily seach a city to get the current weather as well as a five day forecast.
                     </p>
-                    <a href="https://toveson.github.io/Weather-Dashboard/" class="btn btn-primary">Weather Dashboard
-                        Website</a>
+                    <div class="card-body">
+                        <a class="row" href="https://toveson.github.io/Weather-Dashboard/" class="card-link">Weather Dashboard Website</a>
+                        <a class="row" href="https://github.com/toveson/password-generator" class="card-link">Weather Dashboard GitHub</a>
+                    </div>
                 </div>
             </div>
             <!-- day planner card -->
@@ -82,30 +89,33 @@
                     <h5 class="card-title">Day Planner</h5>
                     <p class="card-text">Allows the user to save events to a given time block. Time blocks change color
                         depending on the current time.</p>
-                    <a href="https://toveson.github.io/Day-Planner/" class="btn btn-primary">Day Planner Website</a>
+                        <div class="card-body">
+                            <a class="row" href="https://toveson.github.io/Day-Planner/" class="card-link">Day Planner Website</a>
+                            <a class="row" href="https://github.com/toveson/Day-Planner" class="card-link">Day Planner GitHub</a>
+                        </div>
                 </div>
             </div>
         </div>
 
-    <!-- footer (reseach sticky footer, sub-rows and sub-columns on bootstrap*************** DO THIS FIRST**************) -->
-    <div class="fixed-bottom">
-        <footer class="footer bg-primary">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <!-- left img link to linkedin -->
-                    <a href="https://www.linkedin.com/in/trever-oveson/" target="_blank">
-                        <img class="rounded-circle bg-white border mt-1" src="images/LI-In-Bug.png"
-                            alt="clear 'in' inside a circle">
-                    </a>
-                    <!-- center img link to github -->
-                    <a href="https://github.com/toveson" target="_blank">
-                        <img class="rounded-circle bg-white border ml-1 mt-1" src="images/GitHub-Mark-32px.png"
-                            alt="Silhouette of a cat in a black circle">
-                    </a>
+        <!-- footer (reseach sticky footer, sub-rows and sub-columns on bootstrap*************** DO THIS FIRST**************) -->
+        <div class="fixed-bottom">
+            <footer class="footer bg-primary">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <!-- left img link to linkedin -->
+                        <a href="https://www.linkedin.com/in/trever-oveson/" target="_blank">
+                            <img class="rounded-circle bg-white border mt-1" src="images/LI-In-Bug.png"
+                                alt="clear 'in' inside a circle">
+                        </a>
+                        <!-- center img link to github -->
+                        <a href="https://github.com/toveson" target="_blank">
+                            <img class="rounded-circle bg-white border ml-1 mt-1" src="images/GitHub-Mark-32px.png"
+                                alt="Silhouette of a cat in a black circle">
+                        </a>
+                    </div>
                 </div>
-            </div>
-        </footer>
-    </div>
+            </footer>
+        </div>
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
