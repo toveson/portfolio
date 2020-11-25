@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "* [Responsive-Portfolio](#Responsive-Portfolio)\r * [Technologies](#Technologies)\r * [Collaborators](#collaborators)\r * [links](#links)\r * [Responsive Portfolio Website](https://toveson.github.io/portfolio/)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toveson/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toveson/portfolio/issues"
+  },
+  "homepage": "https://github.com/toveson/portfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
